@@ -10,7 +10,7 @@
     "dev": "nodemon --watch src --exec ts-node src/server.ts",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "prisma:migrate": "dotenv -e .env -- prisma migrate dev --name init",
+    "prisma:migrate": "dotenv -e .env -- prisma migrate dev --name",
     "prisma:studio": "dotenv -e .env -- prisma studio",
     "prisma:reset": "dotenv -e .env -- prisma migrate reset",
     "prisma:generate": "dotenv -e .env -- prisma generate"
